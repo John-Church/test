@@ -1,6 +1,10 @@
 <template>
 <div>
-<form data-netlify="true" action="/" method="POST" class="grid grid-cols-1 gap-y-6 grid-cols-2 gap-x-4 sm:gap-x-8" name="Contact">
+<form netlify
+      action="/"
+      method="POST"
+      name="Contact">
+
             <div>
               <label for="first_name" class="sr-only">First Name</label>
               <input type="text" name="first_name" id="first_name" autocomplete="name" class="bg-gray-100 block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-none rounded-md" placeholder="Full name">
