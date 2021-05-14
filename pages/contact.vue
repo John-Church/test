@@ -4,7 +4,7 @@
       action="/"
       method="POST"
       name="Contact">
-
+<input type="hidden" name="form-name" value="Contact" />
             <div>
               <label for="first_name" class="sr-only">First Name</label>
               <input type="text" name="first_name" id="first_name" autocomplete="name" class="bg-gray-100 block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-none rounded-md" placeholder="Full name">
